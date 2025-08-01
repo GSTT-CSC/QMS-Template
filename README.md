@@ -3,7 +3,7 @@
 
 # Open Source ISO 13485 QMS Template from GSTT-CSC
 
-Quality management system template for in-house computing projects
+Quality management system template for in-house SaMD and AIaMD
 <br>
 [View Repo](https://github.com/GSTT-CSC/QMS-Template) . [Report Error](https://github.com/GSTT-CSC/QMS-Template/issues) . [Request Document](https://github.com/GSTT-CSC/CSC-QMS/issues)
 
@@ -20,12 +20,13 @@ ISO 13485 audits by two different notified bodies in the UK.
 
 Having an ISO13485 QMS for medical software means that you: 
 - build safe SaMD / AIaMD that are appropriate for clinical use, and generate the appropriate technical documentation
+- conduct clinical risk management throughtout software development with appropriate clinicians
 - establish, risk assess, and continually improve your processes 
 - train you staff, verify their training, and keep it up to date
 - continually evaluate your compliance to your SOP's through internal audit
-- have an established Corrective and Preventative Actions processes to effective solve issues at the root root cause
-- have management 
-
+- have an established Corrective and Preventative Actions (CAPA) processes to effective solve issues at the root cause
+- have management review meetings to evaluate effective and assign resources
+- store you documentation in a controlled way
 
 ### Who is this repo for? Who would benefit most?
 
@@ -70,7 +71,8 @@ start-ups / academia so updates to the regulations in the UK are sensible.
 
 ### Please join our open-source QMS community 
 
-Get in contact with CSC
+Please fork(online) / clone(local) this repo and see if you can implement in your insitution. 
+Get in contact with CSC on  gstt.clinicalscientificcomputing(at)nhs(dot)net
 
 
 **New Users**
@@ -92,7 +94,7 @@ see.
 
 **NHS Clinical Engineering departments**
 
-We would like to hear from clinical engineering departments in the NHS who assess the TRL (technology readiness level)
+We would love to hear from clinical engineering departments in the NHS who assess the TRL (technology readiness level)
 of SaMD in development. We wish for this repo to automatically provide estimates of minimum documentation and software 
 performance required to conduct clinical evaluations.
 
@@ -102,15 +104,16 @@ In the spirit of quality management we are striving for continual improvements t
 institutions, academic institutions and SME's in develop USEFUL and SAFE medical software by increasing access to 
 clinical and regulatory expertise **_collaboratively_** across public private and regulatory space. 
 
-- Share you auditor experiences without naming notified bodies or individual audits.
+- Share your auditor experiences without naming notified bodies or individual audits.
 - Share SaMD and AIaMD incidents without explicitly naming healthcare institutions or patients.
 - Reflect on types of SaMD/AIaMD products without explicitly naming them when suggesting improvement.
+- polite debate is encourage, and discussions will be fed back to the MHRA. 
 
 
 ### Roadmap
 
-1. Implement MHRA guidance for AIaMD implemented in SOP's and templates
-2. Example repo with full technical documentation for a MONAI Application Package (MAP): a custom Docker container that works on common AI deployment platforms.
+1. Implement MHRA guidance for AIaMD in SOP's and templates
+2. Example repo with full technical documentation for a **[MONAI Application Package (MAP)](https://monai.io/deploy.html)**: a custom Docker container that works on common AI deployment platforms.
 3. Automation of trend analysis (CAPA resolution times, code review times, stakeholder engagement e.t.c.) through GitHub Actions
 4. Automation of ISO13485 / ISO62034 self-auditing through GitHub Actions
 5. Generation of audit reports for internal and external auditors
@@ -118,11 +121,11 @@ clinical and regulatory expertise **_collaboratively_** across public private an
 
 ### Acknowledgments
 
-- [**Open Regulatory**]() - We source many of our SOP's from the publicly ISO13485 templates from Open Regulatory, you will their license at the
+- [**Open Regulatory**]() - We source many of our SOP's from the publicly ISO13485 templates from Open Regulatory, you will see their license at the
 bottom of many of our documents. 
 
 
-- [**Innolitics RDM**]() - We use Innolitics `rdm` python package for generating the technical documentation for individual project repo's.
+- [**Innolitics RDM**]() - We use Innolitics `rdm` python package for generating the technical documentation for individual project repo's. Another fantastic company who build SaMD/AIaMD for FDA approval in the US. 
 
 
 - All past and present CSC team members who have contributed to the development of this QMS, and you herculean effort to
@@ -135,5 +138,5 @@ get it off the ground and supporting it as a team over the last 4 years.
 Our website.
 - **[MHRA webpage for Software and artificial intelligence (AI) as a medical device](https://www.gov.uk/government/publications/software-and-artificial-intelligence-ai-as-a-medical-device)**
 Latest consideration from the MHRA on SaMD and AIaMD
-- **[OPenRegulatory Slack Channel](https://openregulatory.com/community)**
+- **[OpenRegulatory Slack Channel](https://openregulatory.com/community)**
 A great community Slack channel hosted by OpenRegulatory - connecting Regulatory professionals across Europe.
