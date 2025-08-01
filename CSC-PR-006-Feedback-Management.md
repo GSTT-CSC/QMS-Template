@@ -59,7 +59,7 @@ and processed according to priority.
 
 Feedback can be provided in the following ways:
 * Raising an Issue on the corresponding CSC GitHub repository
-* Contacting the CSC Team via email: CSCTeam@gstt.nhs.uk
+* Contacting the CSC Team via email: **************
 * Contacting one of the software developers via email – contact addresses of CSC Team Members are available on the CSC website.
 
 ### Feedback Prioritisation
