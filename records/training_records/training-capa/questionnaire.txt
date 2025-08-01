@@ -1,0 +1,9 @@
+- Name 5 situations that could trigger a CAPA
+
+- Is it possible for a CAPA to be both corrective and preventative?
+
+- Give a 1 sentence explanation of the 5 whys root cause analysis (remember 5 is just a suggested number) 
+
+- Who can sign off and resolve a CAPA?
+
+- CAPA actions should be started without delay, and typically the QMO sets the timeframe within which the CAPA is resolved. What else could dictate the timeframe for resolving the CAPA?

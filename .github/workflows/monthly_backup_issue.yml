@@ -1,0 +1,27 @@
+name: Monthly Backup
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 9 1 * *'
+
+jobs:
+  create_issue:
+    name: Create backup issue
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Create backup issue
+        uses: imjohnbo/issue-bot@3d96848fb5e9a4a473bb81ae62b4b4866a56e93a
+        with:
+          assignees: 
+          title: "Perform monthly backup of QMS"
+          body: |
+            ### Task List
+            - [ ] Download zipped QMS and re-name to CSC-QMS-V.v.v_DDMMYYY.zip.
+            - [ ] Store on Microsoft Teams MT-CSC > Documents > General > Policy > CSC_QMS > CSC-QMS_Backups.
+            - [ ] Ensure team are aware of where the backups are stored.
+          pinned: false
+          close-previous: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,60 @@
+---
+qms_version: 2.2.0
+sop_id: CSC PR.025
+sop_version: 2.0.1
+template_id: CSC F.026
+template_version: 2.0.1
+record_version:
+record_id: SRAR-001
+title: Software Release Activity Record
+---
+
+# Release Documents
+<!-- [13485:7.5.1f,7.5.3]-->
+
+## General
+
+|                           |               |
+|---------------------------|---------------|
+| **Template ID**           | CSC F.026     | 
+| **Template Version**      | 2.0.1         |
+| **QMS Version**           | 2.2.0         |
+| **SOP ID**                | CSC PR.001    |
+| **SOP Version**           | 2.0.1         |
+| **Regulatory References** |               |
+
+
+|              |              |
+|--------------|--------------|
+| **Author**   |              |
+| **Approval** |              |
+
+## Purpose
+
+The purpose of this document is to provide a record of the verification steps for the software release activity, 
+as performed for {{device.name}}, as well as a record of how the release was built.
+
+## Scope
+
+This document applies to {{device.name}} release {{device.version}}.
+
+## Release Build Environment
+
+TODO: Record details about how the software release artifact was built. This should be detailed enough that another 
+engineer could reproduce the artifact.
+
+## Release Verification
+
+TODO: fill in this list from the release verification activity
+
+I, PROJECT LEAD'S NAME, verify the following:
+
+- [ ] all planned change requests have been implemented and integrated
+- [ ] the outputs of each activity are in a consistent state
+- [ ] the unit tests adequately verify the software units
+- [ ] the integration tests adequately verify the software units
+- [ ] all software requirements have been tested or otherwise verified
+- [ ] the software design specification is accurate and up-to-date
+- [ ] integration and system testing activity has been completed after the last change request was integrated, and a test record has been written and linked to here
+- [ ] none of the known anomalies result in unacceptable risk
+- [ ] the test results meet the required pass/fail criteria listed in Testing Plan section of the Software Plan document.
