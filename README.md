@@ -128,7 +128,7 @@ bottom of many of our documents.
 - [**Innolitics RDM**]() - We use Innolitics `rdm` python package for generating the technical documentation for individual project repo's. Another fantastic company who build SaMD/AIaMD for FDA approval in the US. 
 
 
-- All past and present CSC team members who have contributed to the development of this QMS, and you herculean effort to
+- [All past and present CSC team members](https://gstt-csc.github.io/team.html) who have contributed to the development of this QMS, and you herculean effort to
 get it off the ground and supporting it as a team over the last 4 years. 
 
 ---
