@@ -56,7 +56,7 @@ This document applies to {{device.name}} release {{device.version}}.
 
 |                     |                                    |
 |---------------------|------------------------------------|
-| CSCTeam@gstt.nhs.uk | Clinical Scientific Computing Team |
+| ************        | Clinical Scientific Computing Team |
 |                     |                                    |
 
 ## Instructions For Use
