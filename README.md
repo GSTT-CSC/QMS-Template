@@ -41,17 +41,16 @@ The CSC will update this repo periodically as new challenges arise during our QM
 ### Who is this repo for? Who would benefit most?
 
 - **NHS Institutions** looking to implement a QMS for in-house developed SaMD and AIaMD _e.g. 
-Medical Physics / Clinical Scientific Computing teams_
-- **Life Science departments at universities** who are looking at spinning out companies from research groups developing AIAMD and SaMD
+Medical Physics / CSC teams_
+- **Life Science departments at universities** who are looking at spinning out companies from research groups developing
 AIaMD and SaMD.
 - **Small- and Medium- sized Enterprises (SME's)** starting their regulatory journey 
 
 ### Who are we? 
 
 The CSC team within Medical Physics at GSTT aim to build SaMD and AIaMD to the same standard as commercially available 
-medical software. We are a team consisting of predominantly clinical scientists, AI engineers, doctors, and NHS Scientist Training
-Programme (STP) trainees.  
-
+medical software. We are a team of clinical scientists, AI engineers, doctors, and NHS Scientist Training Programme 
+(STP) trainees.  
 
 We have adopted an ethos of 'radical transparency' to make available as much of our output as possible, for the benefit
 of the NHS and the wider health tech sector.
@@ -64,10 +63,10 @@ institution/company, resources, and products you're building.
 
 ### Other useful public repos
 
-|                                                                                |                                                                                                                                                                                                                      |
-|--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[LINK: CSC Project Template](https://github.com/GSTT-CSC/project-template)** | A template repo that all CSC projects are started from. Integrates with the QMS for appropriate documentation, and MLOps to integrate with our machine learning pipeline for training models on our infrastructure.   |
-| **[LINK: CSC MLOPs](https://github.com/GSTT-CSC/MLOps)**                       | A CSC open source python package for machine learning operations - Training ML models using docker, and logging these models and training artefacts in MLflow.                                        |
+|                                                               |                                                                                                                                                                                                                        |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **[CSC Project Template](https://github.com/GSTT-CSC/project-template)** | A template repo that all CSC projects are started from. Integrates with the QMS for appropriate documentation, and MLOps to integrate with our machine learning pipeline for training ML models on our infrastructure. |
+| **[CSC MLOPs](https://github.com/GSTT-CSC/MLOps)**            | A CSC open source python package for machine learning operations - Training ML models using docker, and logging these models and training artefacts in MLflow.                                                         |
 
 ### MHRA Engagement
 
@@ -93,7 +92,8 @@ Get in contact with CSC on gstt.clinicalscientificcomputing@nhs(dot)net if you w
 Consult the Wiki for deployment instructions. The CSC will provide consultancy on setting this up and QMS training for 
 NHS departments.
 
-[LINK TO QMS SETUP INSTRUCTIONS](Work-Instruction.md)
+|[QMS SETUP INSTRUCTIONS](Work-Instruction.md)|
+|---|
 
 **Established Users**
 
@@ -147,6 +147,15 @@ individual project repo's. Another fantastic company who build SaMD/AIaMD for FD
 - [**All past and present CSC team members**](https://gstt-csc.github.io/team.html) who have contributed to the
 development of this QMS, and your effort to get it off the ground and supporting it as a team. 
 
+---
+
+## Useful links
+
+- **[CSC Website](https://gstt-csc.github.io/ )**
+- **[MHRA webpage for Software and artificial intelligence (AI) as a medical device](https://www.gov.uk/government/publications/software-and-artificial-intelligence-ai-as-a-medical-device)**
+Latest considerations from the MHRA on SaMD and AIaMD
+- **[OpenRegulatory Slack Channel](https://openregulatory.com/community)**
+A great community Slack channel hosted by OpenRegulatory - connecting regulatory professionals across Europe.
 
 ### Sense About Science Handover Framework
 
@@ -154,23 +163,14 @@ If you engage clinicians and hospital staff early in the development of SaMD and
 time, effort, and money building unusable products with no clinical value. Clinical and IT engagement is 
 required at the start of development in our QMS for this reason. 
 
-Early stage QMS activities can be burdensome to non-regulatory people, so we encourage the use of the Sense About 
+Early stage QMS activities can be burdensome to non-regulatory people, so instead we encourage the use of the Sense About 
 Science "Responsible handover of AI" framework: a list of digestible questions to be answered at project handovers to
 maintain the information that will be valuable when technical/QMS documentation needs to be filled out.
 
-[LINK TO HANDOVER FRAMEWORK](https://senseaboutscience.org/responsible-handover-of-ai/)
+|[HANDOVER FRAMEWORK](https://senseaboutscience.org/responsible-handover-of-ai/)|
+|---|
 
 The Handover framework maps well to GSTT-CSC SaMD AIaMD development processes:
 <p align="center">
 <img src="assets/Sense_about_science_QMS_mapping.gif" alt="sense about science mapping" width="70%">
 </p>
-
----
-### Useful links
-
-- **[CSC Website](https://gstt-csc.github.io/ )**
-Our website.
-- **[MHRA webpage for Software and artificial intelligence (AI) as a medical device](https://www.gov.uk/government/publications/software-and-artificial-intelligence-ai-as-a-medical-device)**
-Latest consideration from the MHRA on SaMD and AIaMD
-- **[OpenRegulatory Slack Channel](https://openregulatory.com/community)**
-A great community Slack channel hosted by OpenRegulatory - connecting Regulatory professionals across Europe.
