@@ -6,7 +6,7 @@
 </a>
 <h1 align="center">QMS-Template</h1>
 <p align="center">
-  Open-source ISO 13485 QMS Template from GSTT-CSC
+  Open-source ISO 13485 quality management systems template from GSTT-CSC
   <br />
   <br />
   <a href="https://github.com/GSTT-CSC/QMS-Template">View repo</a>
@@ -22,9 +22,9 @@
 This repository is an example of a quality management system (QMS) that can be used for the development of software as a
 medical device (SaMD) and AI as a medical device (AIaMD). 
 
-It's an empty version of the QMS that has been developed by, and is currently used by, the Clinical Scientific Computing (CSC) Team
-at Guy's and St Thomas' NHS Foundation Trust (GSTT), London UK. So far, it has survived 18 internal audits and 3 external 
-ISO13485 audits by two different notified bodies in the UK.
+It's an empty version of the QMS that has been developed by, and is currently used by, the Clinical Scientific Computing
+(CSC) Team at Guy's and St Thomas' NHS Foundation Trust (GSTT), London UK. So far, it has survived 18 internal audits 
+and 3 external ISO13485 audits by two different notified bodies in the UK.
 
 Having an ISO 13485 compliant QMS for medical software means that you: 
 - build safe SaMD / AIaMD that are appropriate for clinical use, and generate the appropriate technical documentation
@@ -58,10 +58,10 @@ of the NHS and the wider health tech sector.
 ### Does cloning this repo mean I have a functional QMS?
 
 No, this is a template QMS for you to use as a way of performing and logging SaMD / AIaMD development activities during 
-software development. You would need to edit the Policies / SOP's and Template to reflect your team, 
-institution/company, resources, and products you're building. 
+software development. You would need to edit the policies / SOP's and templates to reflect your team, 
+your institution/company, your resources, and the products you are developing. 
 
-### Other useful public repos
+### Our other useful public repos
 
 |                                                               |                                                                                                                                                                                                                        |
 |---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -123,6 +123,8 @@ clinical and regulatory expertise **_collaboratively_** across public private an
 - Polite debate is encouraged, and discussions will be fed back to the MHRA.
 
 ### Roadmap
+
+We will provide updates to this repo periodically to reflect new risks and new functionality.
 
 1. Implement MHRA guidance for AIaMD in SOP's and templates
 2. A wiki to help set up QMS and useful info on regulations and deployment platforms.
