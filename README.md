@@ -111,9 +111,7 @@ clinical and regulatory expertise **_collaboratively_** across public private an
 - Share your auditor experiences without naming notified bodies or individual audits.
 - Share SaMD and AIaMD incidents without explicitly naming healthcare institutions or patients.
 - Reflect on types of SaMD/AIaMD products without explicitly naming them when suggesting improvement.
-- Polite debate is encouraged, and discussions will be fed back to the MHRA. 
-
-
+- Polite debate is encouraged, and discussions will be fed back to the MHRA.
 
 ### Roadmap
 
@@ -138,8 +136,8 @@ will see their license at the bottom of many of our documents.
 individual project repo's. Another fantastic company who build SaMD/AIaMD for FDA approval in the US. 
 
   
-- [**All past and present CSC team members**](https://gstt-csc.github.io/team.html) who have contributed to the development of this QMS, and your effort
-to get it off the ground and supporting it as a team over the last 4 years. 
+- [**All past and present CSC team members**](https://gstt-csc.github.io/team.html) who have contributed to the
+development of this QMS, and your effort to get it off the ground and supporting it as a team. 
 
 ---
 ### Useful links
