@@ -1,13 +1,21 @@
-
-![image](assets/CSC-QMS-logo.png) 
-
-# Open-source ISO 13485 QMS Template from GSTT-CSC
-
-_Quality management system template for SaMD and AIaMD developed in NHS institutions_
-<br>
-[View Repo](https://github.com/GSTT-CSC/QMS-Template) | [Report Error](https://github.com/GSTT-CSC/QMS-Template/issues) | [Request Document](https://github.com/GSTT-CSC/CSC-QMS/issues)
-
-
+<!-- PROJECT HEADING -->
+<br />
+<p align="center">
+<a href="https://github.com/GSTT-CSC/QMS-Template">
+  <img src="assets/CSC-QMS-logo.png" alt="Logo" width="70%">
+</a>
+<h1 align="center">QMS-Template</h1>
+<p align="center">
+  Open-source ISO 13485 QMS Template from GSTT-CSC
+  <br />
+  <br />
+  <a href="https://github.com/GSTT-CSC/QMS-Template">View repo</a>
+  |
+  <a href="https://github.com/GSTT-CSC/QMS-Template/issues">Report Error</a>
+  |
+  <a href="https://github.com/GSTT-CSC/QMS-Template/issues">Request Feature</a>
+  <br />
+</p>
 
 ### Description
 
@@ -101,6 +109,13 @@ We would greatly appreciate input from medical device regulatory consultants to 
 We would love to hear from clinical engineering departments in the NHS who assess the technology readiness level (TRL) 
 of SaMD in development. We wish for this repo to automatically provide estimates of minimum documentation and software 
 performance required to conduct clinical evaluations.
+
+### Sense About Science Handover Framework
+
+Just because you can, doesn't mean you should...
+
+Vast amounts of research funding, investment and effort, is wasted creating
+
 
 ### Ethos and Guidelines  
 
