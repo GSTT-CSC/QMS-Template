@@ -110,12 +110,6 @@ We would love to hear from clinical engineering departments in the NHS who asses
 of SaMD in development. We wish for this repo to automatically provide estimates of minimum documentation and software 
 performance required to conduct clinical evaluations.
 
-### Sense About Science Handover Framework
-
-Just because you can, doesn't mean you should...
-
-Vast amounts of research funding, investment and effort, is wasted creating
-
 
 ### Ethos and Guidelines  
 
@@ -131,7 +125,6 @@ clinical and regulatory expertise **_collaboratively_** across public private an
 ### Roadmap
 
 1. Implement MHRA guidance for AIaMD in SOP's and templates
-
 2. A wiki to help set up QMS and useful info on regulations and deployment platforms.
 3. Example repo with full technical documentation for a **[MONAI Application Package (MAP)](https://monai.io/deploy.html)**: a custom Docker 
 container that works on common AI deployment platforms.
@@ -153,6 +146,24 @@ individual project repo's. Another fantastic company who build SaMD/AIaMD for FD
   
 - [**All past and present CSC team members**](https://gstt-csc.github.io/team.html) who have contributed to the
 development of this QMS, and your effort to get it off the ground and supporting it as a team. 
+
+
+### Sense About Science Handover Framework
+
+If you engage clinicians and hospital staff early in the development of SaMD and AIaMD, you will prevent wasted
+time, effort, and money building unusable products with no clinical value. Clinical and IT engagement is 
+required at the start of development in our QMS for this reason. 
+
+Early stage QMS activities can be burdensome to non-regulatory people, so we encourage the use of the Sense About 
+Science "Responsible handover of AI" framework: a list of digestible questions to be answered at project handovers to
+maintain the information that will be valuable when technical/QMS documentation needs to be filled out.
+
+[LINK TO HANDOVER FRAMEWORK](https://senseaboutscience.org/responsible-handover-of-ai/)
+
+The Handover framework maps well to GSTT-CSC SaMD AIaMD development processes:
+<p align="center">
+<img src="assets/Sense_about_science_QMS_mapping.gif" alt="sense about science mapping" width="70%">
+</p>
 
 ---
 ### Useful links
