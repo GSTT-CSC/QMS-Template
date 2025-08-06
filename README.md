@@ -24,7 +24,7 @@ medical device (SaMD) and AI as a medical device (AIaMD).
 
 It's an empty version of the QMS that has been developed by, and is currently used by, the Clinical Scientific Computing
 (CSC) Team at Guy's and St Thomas' NHS Foundation Trust (GSTT), London UK. So far, it has survived 18 internal audits 
-and 3 external ISO13485 audits by two different notified bodies in the UK.
+and 3 external ISO 13485 audits by two different notified bodies in the UK.
 
 Having an ISO 13485 compliant QMS for medical software means that you: 
 - build safe SaMD / AIaMD that are appropriate for clinical use, and generate the appropriate technical documentation
@@ -34,7 +34,7 @@ Having an ISO 13485 compliant QMS for medical software means that you:
 - continually evaluate your compliance to your standard operating procedures (SOPs) through internal audit
 - have an established Corrective and Preventative Actions (CAPA) process to effectively solve issues at the root cause
 - have management review meetings to evaluate effective and assign resources
-- store documentation in a controlled way
+- store documentation in a controlled way 
 
 The CSC will update this repo periodically as new challenges arise during our QMS journey. 
 
@@ -63,10 +63,10 @@ your institution/company, your resources, and the products you are developing.
 
 ### Our other useful public repos
 
-|                                                               |                                                                                                                                                                                                                        |
-|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                                          |                                                                                                                                                                                                                        |
+|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **[CSC Project Template](https://github.com/GSTT-CSC/project-template)** | A template repo that all CSC projects are started from. Integrates with the QMS for appropriate documentation, and MLOps to integrate with our machine learning pipeline for training ML models on our infrastructure. |
-| **[CSC MLOPs](https://github.com/GSTT-CSC/MLOps)**            | A CSC open source python package for machine learning operations - Training ML models using docker, and logging these models and training artefacts in MLflow.                                                         |
+| **[CSC MLOps](https://github.com/GSTT-CSC/MLOps)**                       | A CSC open source python package for machine learning operations - Training ML models using docker, and logging these models and training artefacts in MLflow.                                                         |
 
 ### MHRA Engagement
 
@@ -89,8 +89,8 @@ Get in contact with CSC on gstt.clinicalscientificcomputing@nhs(dot)net if you w
 
 **New Users**
 
-Consult the Wiki for deployment instructions. The CSC will provide consultancy on setting this up and QMS training for 
-NHS departments.
+Consult the link for the work instruction to set this up for your institution. The CSC will provide consultancy on 
+setting this up and QMS training for NHS departments.
 
 |[QMS SETUP INSTRUCTIONS](Work-Instruction.md)|
 |---|
@@ -127,19 +127,19 @@ clinical and regulatory expertise **_collaboratively_** across public private an
 We will provide updates to this repo periodically to reflect new risks and new functionality.
 
 1. Implement MHRA guidance for AIaMD in SOP's and templates
-2. A wiki to help set up QMS and useful info on regulations and deployment platforms.
+2. A wiki to help set up QMS and useful info on regulations and deployment platforms
 3. Example repo with full technical documentation for a **[MONAI Application Package (MAP)](https://monai.io/deploy.html)**: a custom Docker 
-container that works on common AI deployment platforms.
+container that works on common AI deployment platforms
 4. Automation of trend analysis (CAPA resolution times, code review times, stakeholder engagement etc.) through GitHub
 Actions
-5. Automation of ISO13485:2016 / ISO62034:2006 self-auditing through GitHub Actions
+5. Automation of ISO 13485:2016 / ISO 62034:2006 self-auditing through GitHub Actions
 6. Generation of audit reports for internal and external auditors 
 7. Provide suggested schedules for QMS activities for NHS CSC departments 
 
 ### Acknowledgments
 
-- [**Open Regulatory**]() - We sourced many of our SOP's from the publicly ISO13485 templates from OpenRegulatory, you
-will see their license at the bottom of many of our documents. 
+- [**Open Regulatory**]() - We sourced many of our SOP's from the  ISO 13485 templates made available by OpenRegulatory,
+you will see their license at the bottom of many of our documents. 
 
 
 - [**Innolitics RDM**]() - We use Innolitics `rdm` python package for generating the technical documentation for 
@@ -167,12 +167,12 @@ required at the start of development in our QMS for this reason.
 
 Early stage QMS activities can be burdensome to non-regulatory people, so instead we encourage the use of the Sense About 
 Science "Responsible handover of AI" framework: a list of digestible questions to be answered at project handovers to
-maintain the information that will be valuable when technical/QMS documentation needs to be filled out.
+maintain the information that will be valuable when technical / QMS documentation needs to be filled out.
 
 |[HANDOVER FRAMEWORK](https://senseaboutscience.org/responsible-handover-of-ai/)|
 |---|
 
-The Handover framework maps well to GSTT-CSC SaMD AIaMD development processes:
+The Handover framework maps well to the GSTT-CSC SaMD / AIaMD development process:
 <p align="center">
 <img src="assets/Sense_about_science_QMS_mapping.gif" alt="sense about science mapping" width="70%">
 </p>
