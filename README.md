@@ -24,9 +24,9 @@ medical device (SaMD) and AI as a medical device (AIaMD).
 
 It's an empty version of the QMS that has been developed by, and is currently used by, the Clinical Scientific Computing
 (CSC) Team at Guy's and St Thomas' NHS Foundation Trust (GSTT), London UK. So far, it has survived 18 internal audits 
-and 3 external ISO 13485 audits by two different notified bodies in the UK.
+and 3 external [ISO 13485](https://www.iso.org/standard/59752.html) audits by two different notified bodies in the UK.
 
-Having an ISO 13485 compliant QMS for medical software means that you: 
+Having an [ISO 13485](https://www.iso.org/standard/59752.html) compliant QMS for medical software means that you: 
 - build safe SaMD / AIaMD that are appropriate for clinical use, and generate the appropriate technical documentation
 - conduct clinical risk management throughout software development with appropriate clinicians
 - establish, risk assess, and continually improve your processes 
